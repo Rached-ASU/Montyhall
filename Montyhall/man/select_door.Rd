@@ -2,7 +2,7 @@
 % Please edit documentation in R/monty-hall-problem.R
 \name{select_door}
 \alias{select_door}
-\title{selecting one of the three door randomly}
+\title{Player selects a door.}
 \usage{
 select_door()
 }
@@ -14,13 +14,12 @@ The function returns a length of 1 character vector
 indicating the selected door
 }
 \description{
-\code{select_door()}generate a random door
+\code{select_door()} generates a random door.
 }
 \details{
-this function will represent the choice of the participant where he
-will have equal chances to select a door
+this function will represent the choice of the participant where he will have equal chances to select a door.
 }
 \examples{
-select_door()
+ select_door()
 
 }

@@ -7,13 +7,14 @@
 determine_winner(final.pick, game)
 }
 \arguments{
-\item{final}{pick a vector that will indicate the door that was last selected}
+\item{...}{final pick a vector that will indicate the door that was last selected (final.pick,game)}
 }
 \value{
-The function will return a string either WIN or Lose
+The function returns a WIN or LOSE
 }
 \description{
-\code{determine_winner} generates a Win or lose depending on the situation
+The function determines if contestant has won or lost depending on the situation of the final selection
+.
 }
 \details{
 This function will show the user if he won or lost depending on his final pick.
@@ -21,4 +22,6 @@ If door behind the final pick was a car that the player win and if not the playe
 }
 \examples{
 determine_winner( final.pick, game )
+
+
 }

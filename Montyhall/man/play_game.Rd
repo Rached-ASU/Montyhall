@@ -7,14 +7,14 @@
 play_game()
 }
 \arguments{
-\item{N/A}{}
+\item{...}{no arguments are used by the function.}
 }
 \value{
-will return a small table that indicates the winngin and losing strategy
+will return a small table that indicates the winning and losing strategy
 }
 \description{
-play_game general function that contains all the previous functions will return
-WIN  or Lose
+Play_game is a general function that contains all the previous functions
+of a single game in order and see which strategy wins/loses.
 }
 \details{
 The game consist of choosing one door from three doors, one of which has a car
